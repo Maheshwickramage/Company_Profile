@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
 
   <title>Our-Compnay Associate</title>
   <meta name="author" content="Velile Vamba">
@@ -12,6 +13,8 @@
 
   <!-- Favicons -->
   
+<!-- Add this in the head section of your HTML file -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -282,24 +285,24 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url(assets/img/rene-2.png)">
+        <div class="carousel-item active" style="background-image: url(assets/img/rene.jpg)">
           <div class="carousel-caption">
-            <h2 class="display-4" style="color: #020a20;">VOLO Engineers & Consultants Pvt Ltd.</h2>
+            <h2 style="color: #ffffff; font-weight: bold;font-size: 75px;">VOLO Engineers & Consultants Pvt Ltd.</h2>
             <p class="lead">Delivering relevant, agile yet simple technological solutions for financial services providers</p>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(assets/img/rene.jpg)">
+        <div class="carousel-item" style="background-image: url(assets/img/rene-2.png)">
           <div class="carousel-caption ">
-            <h2 class="display-4">VOLO Engineers & Consultants Pvt Ltd</h2>
-            <p class="lead">Delivering relevant technologies for our times</p>
+            <h2 style="color: #000000; font-weight: bolder;font-size: 75px;">Vision</h2>
+            <p class="lead" >To offer personalized solar energy solutions that enable clients to lower their carbon footprint, reduce energy expenses, and contribute to a cleaner and more sustainable future.</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url(assets/img/rene.jpg)">
+        <div class="carousel-item" style="background-image: url(assets/img/rene-4.jpg)">
           <div class="carousel-caption covid-block">
-            <h2 class="display-4">VOLO Engineers & Consultants Pvt Ltd</h2>
-            <p class="lead" style="background: rgba(0, 0, 0, 0.7); border-radius: 3px;">Our vision is to offer personalized solar energy solutions that enable clients to lower their carbon footprint, reduce energy expenses, and contribute to a cleaner and more sustainable future.</p>
+            <h2 style="color: #ffffff; font-weight: bolder;font-size: 75px;">Mission</h2>
+            <p class="lead" >To provide customized, affordable, and sustainable solar energy solutions that reduce environmental impact, lower energy costs, and contribute to a greener future. with a dedicated team of experts, we offer comprehensive services from analysis to maintenance, prioritizing innovation, and client satisfaction.</p>
           </div>
         </div>
       </div>
@@ -321,7 +324,7 @@
     <section id="about" class="about">
       <div class="container">
 
-        <div class="section-title">
+        <div style="font-weight: bold;">
           <h2>About Us</h2>
         </div>
 
@@ -330,7 +333,7 @@
             <img src="assets/img/Fapas.png" class="img-fluid" alt="" width="650" height="750">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
-            <h3>What we do</h3>
+            
             <p class="">
               VOLO Pvt. Ltd was founded in 2017 and since then we have been supplying engineering consultancy in various industries in the country.
               We understand that every client's solar energy needs are unique. 
@@ -350,6 +353,48 @@
       </div>
     </section><!-- End About Us Section -->
 
+
+
+
+    <section id="" class="why-us" style="color: #ffffff;">
+      <div class="why-us-section">
+        <h1 style="color: black;">Why Choose Us</h1>
+        <p style="color: #0c0c0c; font-weight: bold;">We offer a range of services, including overall technical background and battery solutions, power backup and peak shaving, power storage for uninterrupted power supply, system certification and installation, and importation of equipment based on client requests.</p>
+        <div class="why-us-items">
+          <div class="why-us-item animate__animated animate__fadeIn">
+            <h3>Extensive warranty coverage up to 25 years</h3>
+          </div>
+          <div class="why-us-item animate__animated animate__fadeIn" style="animation-delay: 0.2s;">
+            <h3>Superior products and engineering services</h3>
+          </div>
+          <div class="why-us-item animate__animated animate__fadeIn" style="animation-delay: 0.4s;">
+            <h3>Competitive and budget-friendly pricing</h3>
+          </div>
+          <div class="why-us-item animate__animated animate__fadeIn" style="animation-delay: 0.6s;">
+            <h3>Online monitoring & troubleshooting support</h3>
+          </div>
+          <div class="why-us-item animate__animated animate__fadeIn" style="animation-delay: 0.8s;">
+            <h3>Expertise & experience</h3>
+          </div>
+          <div class="why-us-item animate__animated animate__fadeIn" style="animation-delay: 1s;">
+            <h3>Providing reliable and committed service</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <script>
+      // Add this script to trigger the animation after the page loads
+      document.addEventListener("DOMContentLoaded", function () {
+        const whyUsItems = document.querySelectorAll(".why-us-item");
+        whyUsItems.forEach(item => item.classList.add("animated"));
+      });
+    </script>
+
+
+
+
+
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container">
@@ -358,7 +403,7 @@
           <h2>Vision Mission & Core Value</h2>
         </div>
         
-        <div class="section-content">
+        <div class="section-content-2">
           <p>Our vision is to offer personalized solar energy solutions that enable clients to lower their carbon footprint, reduce energy expenses, and contribute to a cleaner and more sustainable future.</p>
           
           <p>Our mission is to provide customized, affordable, and sustainable solar energy solutions that reduce environmental impact, lower energy costs, and contribute to a greener future. With a dedicated team of experts, we offer comprehensive services from analysis to maintenance, prioritizing innovation, and client satisfaction.</p>
@@ -373,13 +418,9 @@
           </ul>
         </div>
         
-
-        
-          
-        </div>
-
       </div>
     </section><!-- End Services Section -->
+
 
     <!-- ======= Call To Action Section ======= -->
     <section class="call-to-action">
@@ -430,6 +471,310 @@ These tasks will be mutually agreed and detailed in the System Alignment Phase</
         </div>
       </div>
     </section><!-- End Call To Action Section -->
+
+    
+
+     <!-- ======= sample of badget proposal Section ======= --> 
+  
+
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>BUDGET PROPOSAL</h2>
+        </div>
+
+  <h2>Price Proposal - 675kW System</h2>
+
+  <table>
+    <tr>
+      <th>Description</th>
+      <th>Amount (LKR)</th>
+    </tr>
+    <tr>
+      <td>System Price (Excl VAT)</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>VAT</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>CEB Estimation cost</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>Insurance for all risk & Third party</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>Price including Underground Work (Including VAT)</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>Solar Meter Cubicle</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>CEB Breaker with Enclosures</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>Roof access (Ladders)</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>Water line for panel washing</td>
+      <td>...</td>
+    </tr>
+  </table> 
+
+
+  <div class="section-content">
+    
+    <ul>
+      <li>NOTE 1</li>
+      <p>Price includes CEB related chargers</p>
+      <li>NOTE 2</li>
+      <p>Customer is required to place the orders directly with the suppliers to gain the VAT benefit. Same credit terms offered to VOLO will be passed on to the customer.</p>
+      <li>NOTE 3</li>
+      <p>Payment for Solar Panel & Inverter to be made along with the Purchase Order (60%).</p>
+      <li>NOTE 4</li>
+      <p>Customer to fund the project. No finance cost is considered.</p>
+      <li>NOTE 5</li>
+      <p>Price is valid up to the exchange rate 1US$= LKR 320 (Panel LC Maturity Date)</p>
+      
+    </ul>
+  </div>
+
+  <div class="content-block">
+  <h5> Average committed Generation </h5>
+    <table>
+      <tr>
+        <td>Monthly </td>
+        <td>74,250 kWh</td>
+      </tr>
+      <tr>
+        <td>Annual</td>
+        <td>891,000 kWh</td>
+      </tr>
+    </table> 
+  </div>
+
+    <div class="section-content-2">
+      <h3 style="font-weight: bold;color:red;" >Terms & Conditions</h3>
+      <ul>
+        <li>	Customer will be billed after indicating acceptance of this quote.  </li>
+        <li>Payment will be due prior to delivery of service and goods.  </li>
+        <li>Please fax or mail the signed quotation to the address above.  </li>
+        <li>	After visiting the site, the amount may change on the wanted UG cable or light poles or rearrange the panels laying will change.</li>
+        <li>This quotation valid on one month from the above date </li>                      
+      </ul>
+    </div>
+
+
+
+    <div style="margin-bottom: 75px; margin-top: 75px;">
+      <h2>Bill of Quantity</h2>
+      <table>   
+        <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Quantity</th>
+        </tr>
+        <tr>
+          <td>Solar PV Panels</td>
+          <td>LONGI 565W</td>
+          <td>1196</td>
+        </tr>
+        <tr>
+          <td>Inverters</td>
+          <td><p>Huawei 100kW</p>
+             <p>Huawei 50kW</p>
+             <p>Huawei 15kW</p>
+             <p>Online monitoring</p>
+          </td>
+         <td> <p>5</p>
+              <p>1</p>
+              <p>1</p>
+              <p>1</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Structure (Lanka Aluminum)</td>
+          <td><p>Aluminum Railing Bars</p>
+             <p>T Clamp Set</p>
+             <p>Angle Clamp Set </p>
+             <p>Serrated Angle Bracket</p>
+             <p>Connector Clamp </p>
+          </td>
+        
+          <td><p>499</p>
+            <p>Multiple</p>
+            <p>Multiple</p>
+            <p>Multiple</p>
+            <p>Multiple</p>
+          </td>
+        </tr>
+        <tr>
+          <td>Bus Bar </td>
+          <td>AC Combiner Box - EMP</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Wiring</td>
+          <td>
+            <p>DC Cables (4mm2)</p>
+            <p>AC Cables – Copper/Aluminum</p>
+            <p>Ground Cables</p>
+          </td>
+          <td>
+            <p>Multiple</p>
+            <p>Multiple</p>
+            <p>Multiple</p>
+          </td>
+        </tr>
+        <tr>
+          <td>Cable Trays/PVC</td>
+          <td>
+            <p>DC-PVC</p>
+            <p>AC Cable Trays</p></td>
+          <td>
+            <p>Multiple</p>
+            <p>Multiple</p>
+          </td>
+        </tr>
+        <tr>
+          <td>Price includes</td>
+          <td>Design & Engineering Support for the solar system
+            Installation & Commissioning
+            Inverter Structure
+            Water Line
+            Transport & Labour
+            Insurances
+            </td>
+        </tr>
+       
+      </table> 
+    </div>
+
+<div style="margin-bottom: 75px;">
+    <h2>Price Proposal - 675kW System</h2>
+
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Description</th>
+        <th>Warranty/Service Period</th>
+      </tr>
+      <tr>
+        <td>PV MODULE(LONGI
+          Solar)
+        </td>
+        <td>
+          <p>Product Warranty</p>
+          <p>Performance Warranty</p>
+        </td>
+        <td>
+          <p>12 Years</p>
+          <p>25 Years</p>
+        </td>
+      </tr>
+      <tr>
+        <td>INVERTER(Huawei)</td>
+        <td>Product Warranty</td>
+        <td>10 Years</td>
+      </tr>
+      <tr>
+        <td>MOUNTING STRUCTURE</td>
+        <td>Product Warranty</td>
+        <td>10 years</td>
+      </tr>
+      <tr>
+        <td>FREE SERVICE</td>
+        <td>Panel Cleaning & Service</td>
+        <td>1 Year</td>
+      </tr>
+      <tr>
+        <td>SYSTEM INSURANCE</td>
+        <td>Free System Insurance</td>
+        <td>1 Year</td>
+     
+      </table>
+      <p style="color: red;">Note: Warranty covers only for manufacture defects</p>
+      </div>
+
+
+
+
+<div class="section-content-2">
+  <h2 style="font-weight: bold;" >The following matters are not covered under the company warranty</h2>
+  <ul>
+    <li>Negligence, misuse, or improper operation.  </li>
+    <li>Power fluctuations caused by lightning or other disasters. </li>
+    <li>Sabotage or accidental damage. </li>
+    <li>Product damage resulting from earthquakes, fires, floods, thunderstorms, abnormal voltage, or other force-related incidents</li>
+    <li>Unauthorized tampering with the equipment (all services must be performed by VOLO staff or authorized agents during the warranty period; any unauthorized tampering will void the warranty). </li>                      
+    <li>Unauthorized removal or tampering with the security sticker will void the warranty. </li>                      
+    <li>Changing or destroying the brand, trademark, serial number, name, or product plate.</li>                      
+    <li style="color: red;">Warranty does not cover certain damages, and repairs or replacements for those causes are not included.
+       Additional charges may apply for visits related to CEB/LECO/client faults or requirements. 
+       Insurance is recommended for coverage of specific damages. </li>                      
+  </ul>
+</div>
+
+
+<div style="margin-top: 75px;">
+  <h2 style="font-weight: bold;" >External	factors	impacting	solar	system production and performance.</h2>
+ <ul>
+    <li>Solar panel shading resulting from post-installation obstructions such as trees, branches, or buildings.  </li>
+    <li>Severe weather conditions </li>
+    <li>Insufficient or irregular maintenance following the free service period. </li>
+    <li>Power outages or voltage fluctuations from the utility provider (CEB/LECO)</li>                      
+                 
+  </ul>
+</div>
+
+<div style="margin-top: 75px;">
+  <h2 style="font-weight: bold;" >Payment Terms & Conditions</h2>
+ <ul>
+    <li>1st Payment	  </li>
+    <p>A payment of 60% of the total system price is required upon agreement signing/before system installation.</p>
+    <li>2nd Payment	  </li>
+    <p>A 20% payment commencement of the work at site. </p>
+    <li>3rd Payment	  </li>
+    <p>A 10% payment of the total system price is due upon completion of installation</p>
+    <li>Final Payment	  </li>
+    <p>A 10% payment of the total system price is required after grid connection.</p>                 
+  </ul>
+</div>
+
+
+<div style="margin-top: 75px;">
+  <h2 style="font-weight: bold;" >Other Payments</h2>
+ <ul>
+    <li>CEB application fee by the client. </li>
+    <li>Meter box enlarging/shifting (If instructed by CEB/LECO) cost by the client.</li>                                    
+</ul>
+</div>
+
+<div class="container-2">
+  <h4>AFFORDABLE EXCELLENCE: HARNESSING SUSTAINABLE POWER FOR ALL</h4>
+  <p>We trust that the proposed solution will fulfill your requirements. We eagerly anticipate receiving your valuable order.
+    Please feel free to contact us on 077 3268 345 or email us on voloeng@gmail.com for any clarification.</p>
+</div>
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
 
     
 
@@ -515,84 +860,190 @@ allows it to gain customer insights through data analysis.
 <!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Our Team Section ======= -->
-    <section id="team" class="team" style="color: black;">
-      <div class="container" style="text-align: center;" >
-      <div class="wrapper" >
-        <h1>Technology and Security</h1>
+
+
+      <section id="" class="why-us" style="color: #ffffff;">
+        <div class="why-us-section">
+          <h1 style="color: black;">Technology and Security</h1>
+        
+          <div class="why-us-items">
+            <div class="why-us-item animate__animated animate__fadeIn">
+              <h3>Solar PV module technology</h3>
+            </div>
+            <div class="why-us-item animate__animated animate__fadeIn" style="animation-delay: 0.2s;">
+              <h3>Inverter technology</h3>
+            </div>
+            <div class="why-us-item animate__animated animate__fadeIn" style="animation-delay: 0.4s;">
+              <h3>Surge protectors / Energy meter</h3>
+            </div>
+            <div class="why-us-item animate__animated animate__fadeIn" style="animation-delay: 0.6s;">
+              <h3>Mount and Frame</h3>
+            </div>
+          </div> 
+          <div class="col-md-8 offset-md-2" >
+            <img src="assets/img/x1.png" class="rounded "  width="850"  height="400" alt="...">
+          </div>
+          <div style="color: #000000; font-weight:bolder;"> <p>Our-Compnay uses cloud based Microservices. Hosted on-premises or cloud scalable solution.
+            Driving highest business value through latest best in class technologies pinned by simplified
+            user-friendly approach adhering to Industry standards.</p>
+            <p>The client can be rest assured that the data is safe and secure in a state-of-the-art Data Centre
+              and compliant with relevant legislation.</p>
+          </div>
+        </div>        
+      </section>
+    
+      <script>
+        // Add this script to trigger the animation after the page loads
+        document.addEventListener("DOMContentLoaded", function () {
+          const whyUsItems = document.querySelectorAll(".why-us-item");
+          whyUsItems.forEach(item => item.classList.add("animated"));
+        });
+      </script>
+  
+
+  <section id="services" class="services section-bg" >
+    <div class="container">
+
+      <div class="section-title" >
+        <h2 style="font-weight: bold;">VOLO ROOFTOP SOLAR PROJECT REFERENCE</h2>
       </div>
-      <h4>Solar PV module technology</h4>
-      <h4>Inverter technology</h4>
-      <h4>Surge protectors / Energy meter</h4>
-      <h4>Mount and Frame</h4>
-
-
-
-
-
-
-
-        <p>Our-Compnay uses cloud based Microservices. Hosted on-premises or cloud scalable solution.
-          Driving highest business value through latest best in class technologies pinned by simplified
-          user-friendly approach adhering to Industry standards.</p>
-          <p>The client can be rest assured that the data is safe and secure in a state-of-the-art Data Centre
-            and compliant with relevant legislation.</p>
-
-        <div class="col-md-8 offset-md-2">
-         
-          <img src="assets/img/x1.png" class="rounded " width="700"  height="400" alt="...">
-        </div>
+<h3>Sampath Rice Mill Private Limited</h3>
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Description</th>
+      
+        </tr>
+        
+        <tr>
+          <td>Owner</td>
+          <td>Mr. D.M. Jayawardhane</td>
+          
+        </tr>
+        <tr>
+          <td>Location</td>
+          <td>Dehiattakandiya, Sri Lanka</td>
+        
+        </tr>
+        <tr>
+          <td>Capacity</td>
+          <td>385kWp</td>
+        </tr>
+        <tr>
+          <td>Annual Energy Yield</td>
+          <td>42,350 kWh</td>
+       </tr>
+        <tr>
+          <td>commissioned</td>
+          <td>November 2023</td>
+       </tr>
        
-      </div>
-    </section><!-- End Our Team Section -->
+        </table>
 
-    <section id="" class="why-us" style="color: #ffffff;">
-      <div class="why-us-section">
-        <h1  style="color: black;">Why Choose Us</h1>
-        <div class="why-us-items">
-          <div class="why-us-item">
-            <div class="icon-box">
-              
-            </div >
-            <h3>Extensive warranty coverage up to 25 years</h3>
-          </div>
-          <div class="why-us-item">
-            <div class="icon-box">   
-            </div>
-            <h3>Superior products and engineering services</h3>
-          </div>
-      
-          <div class="why-us-item">
-            <div class="icon-box"> 
-            </div>
-            <h3>Competitive and budget -friendly pricing</h3>
-          </div>
-          <div class="why-us-item">
-            <div class="icon-box"> 
-            </div>
-            <h3>Online monitoring  & troubleshooting support
-            </h3>
-          </div>
-          <div class="why-us-item">
-            <div class="icon-box"> 
-            </div>
-            <h3>Expertise & experience
-            </h3>
-          </div>
-          <div class="why-us-item">
-            <div class="icon-box"> 
-            </div>
-            <h3>Providing reliable and committed service
-            </h3>
-          </div>
-      
-          <!-- Repeat the above structure for the remaining 6 items -->
-        </div>
+        <div class="image-container" style="margin-top: 35px;">
+          <img src="assets/img/1.jpg" alt="Image 1" width="550" height="300">
+          <img src="assets/img/2.jpg"alt="Image 2" width="550" height="300">
+          <img src="assets/img/3.jpg"alt="Image 3"width="550" height="300">
+          <img src="assets/img/4.jpg"alt="Image 3"width="550" height="300">
       </div>
+
+
+<div style="margin-top: 85px;">
+  <h3>Residential Roof top project</h3>
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Description</th>
       
-    </section>
+        </tr>
+        
+        <tr>
+          <td>Owner</td>
+          <td>Mr. D.M Siriwardhane</td>
+          
+        </tr>
+        <tr>
+          <td>Location</td>
+          <td>Dehiattakandiya, Sri Lanka</td>
+        
+        </tr>
+        <tr>
+          <td>Capacity</td>
+          <td>5.5 kWp</td>
+        </tr>
+        <tr>
+          <td>Annual Energy Yield</td>
+          <td>6,600 kWh</td>
+       </tr>
+        <tr>
+          <td>commissioned</td>
+          <td>November 2023</td>
+       </tr>
+       
+        </table>
+
+        <div class="image-container" style="margin-top: 35px;">
+          <img src="assets/img/5.jpg" alt="Image 1" width="550" height="300">
+          <img src="assets/img/6.jpg"alt="Image 2" width="550" height="300">
+          <img src="assets/img/7.jpg"alt="Image 3"width="550" height="300">
+          
+      </div>
+
+</div>
+
+
+<div style="margin-top: 75px;">
+  <h3>Residential Roof top project</h3>
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Description</th>
+      
+        </tr>
+        
+        <tr>
+          <td>Owner</td>
+          <td>Mr. D. Warnasinghe</td>
+          
+        </tr>
+        <tr>
+          <td>Location</td>
+          <td>Dehiattakandiya, Sri Lanka</td>
+        
+        </tr>
+        <tr>
+          <td>Capacity</td>
+          <td>5.5 kWp</td>
+        </tr>
+        <tr>
+          <td>Annual Energy Yield</td>
+          <td>6,600 kWh</td>
+       </tr>
+        <tr>
+          <td>commissioned</td>
+          <td>January 2023</td>
+       </tr>
+       
+        </table>
+
+        <div class="image-container" style="margin-top: 30px;">
+          <img src="assets/img/8.png" alt="Image 8" width="550" height="300">
+          <img src="assets/img/9.png"alt="Image 9" width="550" height="300">
+          <img src="assets/img/11.jpg"alt="Image 11"width="550" height="300">
+          <img src="assets/img/12.png"alt="Image 12"width="550" height="300">
+          
+      </div>
+
+
+</div>     
+</div>
+</section>
+   
+
+    
 
     <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <section id="contact" class="contact section-bg" style="background-color: #000000;">
       <div class="container">
 
         <div class="row">

@@ -448,11 +448,13 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  
 }
 
 .section-content {
   max-width: 800px; /* Adjust the width as needed */
   margin: 0 auto;
+  margin-bottom: 75px;
 }
 
 .section-content p {
@@ -466,9 +468,16 @@ section {
 
 .section-content li {
   margin-bottom: 8px;
+  color: red;
+  font-weight: bold;
 }
 
-
+.section-content-2 li {
+  margin-bottom: 8px;
+  color: white;
+  font-weight: bold;
+  
+}
 
 
 
@@ -959,38 +968,77 @@ section {
 }
 
 
-.why-us-section {
-  text-align: center;
-  margin: 30px 0;
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
 }
 
-.why-us-items {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #030303;
+}
+
+
+.content-block {
+  margin-bottom: 75px; /* Add margin at the bottom of each content block */
+}
+
+/* styles.css */
+
+.container-2 {
+  width: 1100px;
+  padding: 20px;
+  background-color: #922020;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* styles.css */
+
+/* styles.css */
+
+.why-us-section {
+  text-align: center;
+  
+  
 }
 
 .why-us-item {
-  text-align: center;
-  max-width: 250px; /* Adjust the max-width as needed */
-  margin: 15px;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #080a0a;
+  width: auto;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: #000000;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s, transform 1s;
+  
 }
 
 
-.icon-box img {
-  width: 60px; /* Adjust the icon size as needed */
+.why-us-item.animated {
+  opacity: 1;
+  transform: translateY(0);
 }
 
-.why-us-item h3 {
-  font-size: 1.5em;
-  margin-bottom: 10px;
+/* styles.css */
+
+.image-container-para {
+  display: flex;
 }
 
-.why-us-item p {
-  color: #666;
+.image-container-para img {
+  margin-right: 10px; /* Adjust spacing between images */
 }
